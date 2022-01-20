@@ -1,0 +1,3 @@
+import arcpy
+data = arcpy.Slope_3d("cdnd43v.tif","slope","DEGREE")
+print(data)
